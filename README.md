@@ -1,6 +1,8 @@
 # Watch Movie List
 We are going to be building an application that keeps track of movies that you want to watch.
 
+## [LIVE DEMO!!!](http://charleskuang.com/watchmovies/)
+
 ## Resources
 * [The Movie Database](https://www.themoviedb.org/)
 * [Querying](https://developers.themoviedb.org/3/getting-started/search-and-query-for-details)
