@@ -1,6 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 import Form from './component/form.js'
+// import Debug from 'react-debug'
 
 var App = React.createClass({
 	render(){

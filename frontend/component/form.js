@@ -1,10 +1,10 @@
 import React from 'react';
 import $ from 'jquery';
-
+// import Debug from 'react-debug'
 
 const Form =React.createClass({
 	getInitialState(){
-		return({input:"transformer", list:[], overview:"", title:""})
+		return({input:"", list:[], overview:"", title:""})
 	},
 	handleChange(e){
 		this.setState({input: e.target.value})
@@ -25,7 +25,8 @@ const Form =React.createClass({
 		})
 	},
 	listClick(){
-	
+	console.log(this.state.title)
+	console.log(this.state.overview)
 	},
 	render(){
 		return(
